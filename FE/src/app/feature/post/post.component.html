@@ -1,0 +1,50 @@
+<div class="container d-flex align-items-end just-cont-center">
+
+  <div class="registerForm d-flex f-dir-col just-cont-center">
+
+    <div id="formHeader" style="text-align: center">
+      <b style=" color: white; font-family: Quicksand; font-size: 30px">Inserisci User</b>
+    </div>
+
+    <div id="formBody">
+      <form [formGroup]="insertForm">
+        <div class="d-flex row-gap-40 f-dir-col align-cont-sb h-100 w-100">
+
+          <div id="nickContainer">
+
+            <h2 class="pad-5" style="color: black; height: 10%; font-family: Quicksand"><b>Nome</b></h2>
+
+            <mat-form-field class="w-100 h-50 bg-color-input border-rad-5">
+              <input
+                class="w-100 "
+                matInput placeholder="Inserisci un nome"
+                formControlName="name"
+                name="name">
+            </mat-form-field>
+          </div>
+
+          <div id="passContainer">
+
+            <h2 class="pad-5" style="color: black; height: 10%; font-family: Quicksand"><b>Cognome</b></h2>
+
+            <mat-form-field class="w-100 h-50 bg-color-input border-rad-5">
+              <input id="cognome"
+                     matInput
+                     formControlName="surname"
+                     name="cognome"
+                     placeholder="Inserisci una cognome"/>
+            </mat-form-field>
+          </div>
+          <div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div id="formFooter" class="d-flex just-cont-center">
+      <button id="signUp-btn" mat-raised-button (click)="submitForm()" >Inserisci</button>
+    </div>
+
+
+  </div>
+</div>

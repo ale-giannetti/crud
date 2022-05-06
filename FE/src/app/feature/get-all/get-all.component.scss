@@ -1,0 +1,44 @@
+.table {
+  width: 100%;
+  margin-top: 1%;
+  background-color: white;
+}
+
+.text-center
+{
+  text-align: center;
+}
+
+th
+{
+  background-color: #780000;
+  color: white;
+}
+
+td
+{
+  //border-bottom-style: solid;
+  color: black;
+}
+
+.click
+{
+  cursor: pointer;
+}
+
+.bg-white
+{
+  background-color: white;
+}
+
+.bg-yellow
+{
+  background-color: #ffbe0b;
+}
+
+.icon
+{
+  display: flex;
+  align-content:center;
+  justify-content: center;
+}

@@ -1,0 +1,12 @@
+<div class="align-items-center justify-content-center d-flex m-10 column">
+  <form [formGroup]="formInput">
+    <mat-form-field appearance="fill">
+      <mat-label>inserisci ID</mat-label>
+      <input matInput formControlName="id" name="id">
+    </mat-form-field>
+  </form>
+
+  <button mat-raised-button (click)="onSubmitId()">Invia richiesta</button>
+
+</div>
+

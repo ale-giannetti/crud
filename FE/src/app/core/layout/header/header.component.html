@@ -1,0 +1,7 @@
+<mat-toolbar class="space-between">
+  <app-button [text]="getId" (routerEvent)="goToGetId($event)"></app-button>
+  <app-button [text]="getAll" (routerEvent)="goToGetAll($event)"></app-button>
+  <app-button [text]="post" (routerEvent)="goToPost($event)" ></app-button>
+  <app-button [text]="put"></app-button>
+  <app-button [text]="delete" (routerEvent)="goToDelete($event)"></app-button>
+</mat-toolbar>

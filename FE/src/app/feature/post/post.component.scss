@@ -1,0 +1,179 @@
+.d-flex
+{
+  display: flex;
+}
+
+.f-dir-col
+{
+  flex-direction: column;
+}
+
+.just-cont-center
+{
+  justify-content: center;
+}
+
+.align-items-end
+{
+  align-items: flex-end;
+}
+.align-items-center
+{
+  align-items: center;
+}
+
+.align-cont-sb
+{
+  align-content: space-between;
+}
+
+.col-gap-40
+{
+  column-gap: 40px;
+}
+
+.row-gap-40
+{
+  row-gap: 10px;
+}
+
+.h-100
+{
+  height: 100%;
+}
+
+.h-50
+{
+  height: 50%;
+}
+
+.w-100
+{
+  width: 100%;
+}
+
+.pad-5
+{
+  padding: 5px;
+}
+
+.border-rad-5
+{
+  border-radius: 5px;
+}
+
+.text-al-center
+{
+  text-align: center;
+}
+
+.bg-color-input
+{
+  background-color: #FEFAE0;
+}
+
+.registerForm
+{
+  height: 70%;
+  width: 33%;
+  padding: 30px;
+  margin: 30px;
+  border-radius: 20px;
+  background-color: #DDA15E;
+  position: absolute;
+}
+
+.container
+{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+}
+
+#formHeader
+{
+  height: 10%;
+  width: 100%;
+}
+
+#formBody
+{
+  height: 80%;
+  width: 100%;
+}
+
+#formFooter
+{
+  height: 10%;
+  width: 100%;
+}
+
+#signUp-btn
+{
+  width: 100%;
+  height: 120%;
+  border: transparent;
+  cursor: pointer;
+  font-size: 30px;
+  font-family: "Quicksand";
+  background-color: #283618;
+  font-weight: bolder;
+  color: white;
+}
+
+
+#nickContainer
+{
+  background-color: #606C38;
+  border-radius: 10px;
+  padding: 10px;
+  height: 35%;
+}
+
+
+#passContainer
+{
+  background-color: #606C38;
+  border-radius: 10px;
+  padding: 10px;
+  height: 35%;
+}
+
+#accountTypeContainer
+{
+  background-color: #1babac;
+  border-radius: 10px;
+  padding: 10px;
+  height: 18%;
+}
+
+#gamerRadioBtn
+{
+  color: black;
+  font-family: Quicksand;
+  margin: 20px;
+  font-weight: bolder;
+}
+
+#devRadioBtn
+{
+  color: black;
+  font-family: Quicksand;
+  margin: 20px;
+  font-weight: bolder;
+}
+
+mat-form-field
+{
+  input
+  {
+    color: black;
+  }
+}
+
+.mat-form-field .mat-focused .mat-form-field-lable
+{
+  color: #EDBC2A;
+}
+
